@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffffe2;
+        overflow-x: hidden; /* Mencegah pengguliran horizontal */
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .header_text {
+        font-family: "Nunito";
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px; /* Menyesuaikan margin atas */
+        margin-bottom: 20px;
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+        color: #000000;
+      }
+
+      .text {
+        font-family: "Nunito";
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(181, 42, 42);
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+      }
+
+      .gif_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .gif_container img {
+        width: 50%; /* Mengatur lebar gambar agar sama */
+        max-height: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gif_container">
+        <img src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/hihi%20makasih.gif"
+          alt="Movies Date"
+        />
+        <hr>
+        <img src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/MoviesDate.jpg"
+          alt="Movies Date"
+        />
+      </div>
+      <div>
+        <h3 class="header_text">I'll set a date for us to watch</h3>
+      </div>
+    </div>
+  </body>
+</html>
